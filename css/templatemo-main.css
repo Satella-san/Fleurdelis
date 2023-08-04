@@ -425,7 +425,11 @@ nav a:hover::before {
 	min-width: 100%;
 	overflow: hidden;
 	float: right;
+	display: flex;
+	gap: 10px;
+	
 }
+
 
 .second-content .left-content {
 	padding: 60px;
@@ -516,6 +520,19 @@ nav a:hover::before {
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.third-content h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #6e543c;
+	letter-spacing: 0.5px;
+	border-bottom: 2px solid #fff;
+	text-align: center;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	margin-top: 0px;
